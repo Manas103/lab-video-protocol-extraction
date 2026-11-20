@@ -1,0 +1,21 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\Manas\Downloads\Auto Job Applier\Total Job Application process flow\projects\lab-video-protocol-extraction\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Manas\Downloads\Auto Job Applier\Total Job Application process flow
+configfile: pytest.ini
+collecting ... collected 12 items
+
+tests\test_alignment.py::test_feature_matrix_shape_and_boundary_labels PASSED [  8%]
+tests\test_alignment.py::test_asr_word_density_is_nonzero_somewhere PASSED [ 16%]
+tests\test_boundary_oracle.py::test_matches_brute_force_oracle_on_random_small_cases PASSED [ 25%]
+tests\test_boundary_oracle.py::test_contested_boundary_counted_once_not_twice PASSED [ 33%]
+tests\test_deviation_experiment.py::test_one_instance_of_each_deviation_type_builds_and_scores PASSED [ 41%]
+tests\test_session_builder.py::test_session_timeline_is_contiguous_and_monotonic PASSED [ 50%]
+tests\test_session_builder.py::test_every_step_has_a_narration_wav_and_at_least_one_frame PASSED [ 58%]
+tests\test_session_builder.py::test_telemetry_rows_cover_the_session_duration PASSED [ 66%]
+tests\test_session_builder.py::test_deterministic_given_the_same_seed PASSED [ 75%]
+tests\test_step_identity.py::test_video_guess_is_exact_on_its_own_canonical_color PASSED [ 83%]
+tests\test_step_identity.py::test_video_guess_is_robust_to_small_noise PASSED [ 91%]
+tests\test_step_identity.py::test_fused_guess_flags_telemetry_mismatch PASSED [100%]
+
+======================== 12 passed in 65.32s (0:01:05) ========================

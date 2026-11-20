@@ -1,0 +1,31 @@
+{
+  "video_caught": 83,
+  "fused_caught": 113,
+  "total": 120,
+  "video_pct": 69.16666666666667,
+  "fused_pct": 94.16666666666667,
+  "by_type": {
+    "skip_step": {
+      "video": 29,
+      "fused": 30,
+      "total": 30
+    },
+    "duplicate_step": {
+      "video": 24,
+      "fused": 30,
+      "total": 30
+    },
+    "reorder_adjacent": {
+      "video": 30,
+      "fused": 30,
+      "total": 30
+    },
+    "telemetry_mismatch": {
+      "video": 0,
+      "fused": 23,
+      "total": 30
+    }
+  },
+  "meets_claim_video": false,
+  "meets_claim_fused": false
+}

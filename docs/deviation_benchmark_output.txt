@@ -1,0 +1,12 @@
+Per-type breakdown (video_caught/fused_caught out of total):
+  skip_step            video 29/30   fused 30/30
+  duplicate_step       video 24/30   fused 30/30
+  reorder_adjacent     video 30/30   fused 30/30
+  telemetry_mismatch   video  0/30   fused 23/30
+
+MEASURED: video alone caught 83/120 (69.2%)
+MEASURED: aligned timeline caught 113/120 (94.2%)
+claim: video 36%, aligned timeline 61%
+meets_claim (video, +/-5pp) = False
+meets_claim (aligned timeline, +/-5pp) = False
+total time: 982.8s

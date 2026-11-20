@@ -1,0 +1,16 @@
+{
+  "f1": 0.9714285714285714,
+  "precision": 0.9714285714285714,
+  "recall": 0.9714285714285714,
+  "true_positives": 34,
+  "false_positives": 1,
+  "false_negatives": 1,
+  "test_sessions": [
+    "acid_base_titration_04",
+    "cell_passaging_05",
+    "dna_extraction_04",
+    "dna_extraction_05",
+    "gel_electrophoresis_05"
+  ],
+  "meets_claim": true
+}

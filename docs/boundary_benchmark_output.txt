@@ -1,0 +1,36 @@
+Building aligned multimodal features for all 23 sessions (real ASR pass per step)...
+  acid_base_titration_00: 20s, 6 steps
+  acid_base_titration_01: 20s, 6 steps
+  acid_base_titration_02: 20s, 6 steps
+  acid_base_titration_03: 20s, 6 steps
+  acid_base_titration_04: 20s, 6 steps
+  cell_passaging_00: 28s, 7 steps
+  cell_passaging_01: 28s, 7 steps
+  cell_passaging_02: 27s, 7 steps
+  cell_passaging_03: 27s, 7 steps
+  cell_passaging_04: 27s, 7 steps
+  cell_passaging_05: 27s, 7 steps
+  dna_extraction_00: 30s, 8 steps
+  dna_extraction_01: 28s, 8 steps
+  dna_extraction_02: 29s, 8 steps
+  dna_extraction_03: 29s, 8 steps
+  dna_extraction_04: 29s, 8 steps
+  dna_extraction_05: 28s, 8 steps
+  gel_electrophoresis_00: 23s, 6 steps
+  gel_electrophoresis_01: 23s, 6 steps
+  gel_electrophoresis_02: 21s, 6 steps
+  gel_electrophoresis_03: 22s, 6 steps
+  gel_electrophoresis_04: 22s, 6 steps
+  gel_electrophoresis_05: 23s, 6 steps
+
+train sessions: 18, test sessions: 5
+  acid_base_titration_04: true_boundaries=[0, 2, 5, 8, 12, 16] predicted=[0, 2, 6, 8, 12, 16] precision=1.00 recall=1.00 f1=1.00
+  cell_passaging_05: true_boundaries=[0, 3, 6, 9, 13, 17, 22] predicted=[0, 3, 6, 10, 13, 17, 22] precision=1.00 recall=1.00 f1=1.00
+  dna_extraction_04: true_boundaries=[0, 4, 6, 10, 13, 16, 21, 24] predicted=[0, 4, 10, 13, 17, 21, 24] precision=1.00 recall=0.88 f1=0.93
+  dna_extraction_05: true_boundaries=[0, 3, 6, 9, 12, 15, 19, 23] predicted=[0, 3, 6, 9, 12, 15, 16, 19, 23] precision=0.89 recall=1.00 f1=0.94
+  gel_electrophoresis_05: true_boundaries=[0, 3, 7, 10, 13, 17] predicted=[0, 3, 7, 10, 13, 17] precision=1.00 recall=1.00 f1=1.00
+
+MEASURED pooled boundary F1 over 5 held-out sessions: 0.9714
+(precision=0.9714, recall=0.9714, tp=34, fp=1, fn=1)
+claim = 0.71 boundary F1; meets_claim = True
+total time: 177.6s
